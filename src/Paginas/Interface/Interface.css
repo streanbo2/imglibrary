@@ -1,8 +1,4 @@
-html,body{
-    background-color: rgb(224, 82, 82);
-    width: 100%;
-    height: 100%;
-}
+
 .header{
     padding: 10px;
     display: flex;
@@ -45,9 +41,14 @@ html,body{
   .imagens{
       border: 3px solid black;
       color: white;
+      width: 100%;
+      height: 100%;
   }
   .geral{
       padding: 10px;
+      background-color: rgb(224, 82, 82);
+      width: 100%;
+      height: 100%;
   }
   .botoes{
       
@@ -63,3 +64,8 @@ html,body{
   .b2{
       margin: 5px;
   }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  

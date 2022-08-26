@@ -1,71 +1,48 @@
-
-.header{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+img{
+  margin-top: 20px;
+  border: 1px solid rgba(226, 224, 224, 0);
+  border-radius: 20px;
+  width:200px;
 }
-.flex-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
+.nome{
+  font-size: 15px;
+}
+.apps{
+  align-items: center;
+  background-color: #fff;
+  border:0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
   
-  .container-box {
-    border: 2px solid black;
-    background-color: rgb(172, 37, 37);
-    height: 50px;
-    width: 60%;
+}
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.Icones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .content-box {
-    font-size: xx-large;
-    color: white;
-    text-align: center;
-    width: 300px;
+  to {
+    transform: rotate(360deg);
   }
-  .galeria{
-      
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      margin: 50px;
-      
-      border: 2px solid black;
-  }
-  .bloco1{
-      padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .imagens{
-      border: 3px solid black;
-      color: white;
-      width: 100%;
-      height: 100%;
-  }
-  .geral{
-      padding: 10px;
-      background-color: rgb(224, 82, 82);
-      width: 100%;
-      height: 100%;
-  }
-  .botoes{
-      
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      
-  }
-  .b1{
-      margin: 5px;
-  }
-  .b2{
-      margin: 5px;
-  }
-  img{
-    width: 100%;
-    height: 100%;
-  }
-  
+}
+.App {
+  text-align: center;
+}

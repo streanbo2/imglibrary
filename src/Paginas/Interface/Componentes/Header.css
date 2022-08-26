@@ -1,0 +1,25 @@
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-box {
+    border: 2px solid black;
+    background-color: rgb(172, 37, 37);
+    height: 50px;
+    width: 60%;
+  }
+  
+  .content-box {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    width: 300px;
+  }
+  

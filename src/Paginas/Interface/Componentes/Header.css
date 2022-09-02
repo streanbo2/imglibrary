@@ -10,15 +10,16 @@
   }
   
   .container-box {
-    border: 2px solid black;
-    background-color: rgb(172, 37, 37);
+    border: 3px solid rgb(109, 15, 15);
+    background-color: rgb(172, 37, 37, 0.834);
+    border-radius: 30px;
     height: 50px;
     width: 60%;
   }
   
   .content-box {
     font-size: xx-large;
-    color: white;
+    color: black;
     text-align: center;
     width: 300px;
   }

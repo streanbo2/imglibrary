@@ -19,9 +19,7 @@ img{
   border-radius: 4px;
   
 }
-button {
-  font-size: calc(10px + 2vmin);
-}
+
 
 .Icones{
   display: flex;
@@ -29,20 +27,5 @@ button {
   justify-content: center;
   width: 90%;
   margin: 0 auto;
-  margin-top: 100px;
-}
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.App {
-  text-align: center;
+  margin-top: 30px;
 }

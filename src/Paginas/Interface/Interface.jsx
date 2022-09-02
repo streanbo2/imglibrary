@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './Interface.css'
-import UploadButton from './UploadButtons';
 import Header from './Componentes/Header';
 import Button from "./Button";
+import Footer from './Componentes/Footer';
 
 function App() {
   const [selecionado, setSelecionado] = useState(false);
@@ -60,8 +60,8 @@ function App() {
   return (
 
     <div>
-      
-      <Header/>
+
+      <Header />
 
       <div className="Icones">
         {icones.map((icone) => {
@@ -69,7 +69,9 @@ function App() {
         })}
       </div>
 
-        <UploadButton/>
+       
+          <Footer/>
+      
     </div>
   );
 }

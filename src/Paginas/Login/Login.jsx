@@ -12,13 +12,13 @@ function Login() {
                     <h3>CADASTRAR</h3>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Usuário" value="" />
+                        <input type="text" class="form-control" placeholder="Usuário" />
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Email" value="" />
+                        <input type="text" class="form-control" placeholder="Email"  />
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Senha" value="" />
+                        <input type="password" class="form-control" placeholder="Senha"  />
                     </div>
                     <div class="form-group">
                         
@@ -32,10 +32,10 @@ function Login() {
                     <img className='icone' src="/src/logo.png" alt="icon name"></img>
                     <h3>FAÇA LOGIN</h3>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Email" value="" />
+                        <input type="text" class="form-control" placeholder="Email"  />
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Senha" value="" />
+                        <input type="password" class="form-control" placeholder="Senha"  />
                     </div>
                     <div class="form-group">
                         

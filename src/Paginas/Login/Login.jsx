@@ -5,14 +5,51 @@ import './login.css'
 function Login() {
 
     return (
-        <div>
-            <h1>Estamos em login</h1>
-            <Link to="/Interface">
-                <button>
-                    ENTRAR
-                </button>
-            </Link> 
+        <div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <img className='icone' src="/src/logo.png" alt="icon name"></img>
+                    <h3>CADASTRAR</h3>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Usuário" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Senha" value="" />
+                    </div>
+                    <div class="form-group">
+                        
+                        <button className='btnAct'>
+                            CADASTRAR
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 login-form-2">
+                    <img className='icone' src="/src/logo.png" alt="icon name"></img>
+                    <h3>FAÇA LOGIN</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Senha" value="" />
+                    </div>
+                    <div class="form-group">
+                        
+                        <Link to="/Interface">
+
+                            <button className='btnAct'>
+                                ENTRAR
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
         </div>
+
     );
 }
 

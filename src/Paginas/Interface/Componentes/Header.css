@@ -2,6 +2,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
+
   }
   .flex-box {
     display: flex;
@@ -11,7 +12,7 @@
   
   .container-box {
     border: 3px solid rgb(109, 15, 15);
-    background-color: rgb(172, 37, 37, 0.834);
+   background-color: rgb(236, 152, 213);
     border-radius: 30px;
     height: 50px;
     width: 60%;
@@ -19,7 +20,7 @@
   
   .content-box {
     font-size: xx-large;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     width: 300px;
   }

@@ -17,6 +17,7 @@ img{
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 4px;
+  background-color: rgb(241, 179, 223);
   
 }
 
@@ -28,4 +29,12 @@ img{
   width: 90%;
   margin: 0 auto;
   margin-top: 30px;
+  
+}
+.apps:hover{
+  background-color: #e4e4e4;
+  
+}
+.Geral{
+  background-color: rgb(241, 179, 223);
 }

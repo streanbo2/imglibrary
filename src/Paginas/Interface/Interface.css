@@ -1,23 +1,23 @@
 img{
   margin-top: 20px;
-  border: 1px solid rgba(226, 224, 224, 0);
-  border-radius: 20px;
+  border: 1px solid rgba(189, 189, 189, 0);
+  border-radius: 10px;
   width:200px;
 }
 
 .nome{
-  font-size: 15px;
+  font-size: 20px;
+  color: #fff;
 }
 .apps{
   align-items: center;
   background-color: #fff;
   border:0px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 4px;
-  background-color: rgb(241, 179, 223);
+  margin-right: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 0px;
+  background-color:  hsl(350, 50%, 58%);
   
 }
 
@@ -32,9 +32,9 @@ img{
   
 }
 .apps:hover{
-  background-color: #e4e4e4;
+  background-color: #7e1932;
   
 }
 .Geral{
-  background-color: rgb(241, 179, 223);
+  background-color: rgb(243, 243, 243);
 }

@@ -11,8 +11,9 @@
   }
   
   .container-box {
-    border: 3px solid rgb(109, 15, 15);
-   background-color: rgb(236, 152, 213);
+    border: 3px solid hsl(350, 45%, 43%);
+   background-color:#7e1932;
+   ;
     border-radius: 30px;
     height: 50px;
     width: 60%;

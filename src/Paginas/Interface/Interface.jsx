@@ -5,12 +5,7 @@ import Button from "./Button";
 import Footer from './Componentes/Footer';
 
 function App() {
-  const [selecionado, setSelecionado] = useState(false);
-
-  function mudaIcones() {
-    setSelecionado(!selecionado);
-    console.log(selecionado);
-  }
+  
 
   const icones = [
     {
@@ -89,9 +84,8 @@ function App() {
         })}
       </div>
 
-       
-          <Footer/>
-      
+      <Footer />
+
     </div>
   );
 }

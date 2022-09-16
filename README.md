@@ -15,6 +15,7 @@ Criação de rotas entre as páginas;
 Implementação do botão "Upload", e "Exit" do MUI MATERIAL.
 Criação de array e relacinamento através da função map na Interface.jsx.
 Organização através do CSS na página Interface.jsx;
+Implementação da API VLibras disponibilizada pelo Governo Federal;
 
 Paulo:
 Criação da logo do projeto;
